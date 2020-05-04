@@ -1,4 +1,42 @@
-.presentation{
+.presentation {
     height: 100%;
     width: 100%;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 40pt;
+    font-weight: 100;
+    width: 100%;
+}
+
+
+.slide-title {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 40pt;
+    font-weight: 100;
+    width: 100%;
+}
+
+
+.slide-body {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 20pt;
+    font-weight: 100;
+    width: 100%;
+}
+
+.slide-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: ghostwhite;
+    text-align: center;
 }
